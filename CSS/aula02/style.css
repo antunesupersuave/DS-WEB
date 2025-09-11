@@ -1,0 +1,46 @@
+h1 {
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+table, th, td {
+    border: 1px solid black;
+    }
+
+th, td {
+        padding: 10px; /* espaço interno */
+        text-align: center; /* centralizar texto */
+ }
+
+ th {
+    background-color: #333;
+    color: white;
+    }
+    td {
+        background-color: #f2f2f2;
+    }
+
+ body {
+    background-color: rgb(244, 250, 249);
+ }
+
+ h1 {
+    color: rgb(3, 133, 122);
+ }
+
+ img {
+    border-width: 10px; 
+border-style: solid;
+border-color:  rgb(5, 125, 129); 
+ }
+
+ h3 {
+    color: rgba(17, 144, 163, 0.625);
+ }
+
+ h2 {
+    color: rgba(8, 122, 135, 0.622);
+ }
+

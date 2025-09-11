@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AULA 04 - HTML BÁSICO</title>
+    </head>
+    <body>
+        <form id="meuFormulario">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <script>
+            document.getElementById("meuFormulario").addEventListener
+            ("submit", function(event) {
+                const email=document.getElementById("email").value;
+                if (!email.includes("@")) {
+                    alert("insira uma email válido")
+                    event.preventDefault();
+            }
+        });
+        </script>
+    </body>
+</html>

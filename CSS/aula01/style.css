@@ -1,0 +1,19 @@
+    p{
+        color: rgb(0, 0, 0);
+    }
+    h1 {
+        color: rgb(73, 85, 85);
+    }
+    body {
+        background: linear-gradient(to right,
+            #ff0000,   /* Vermelho */
+            #ff8c00,   /* Laranja */
+            #ffff00,   /* Amarelo */
+            #008000,   /* Verde */
+            #0000ff,   /* Azul */
+            #8b00ff    /* Roxo */
+        );
+    }
+    div {
+        background-color: aliceblue;
+    }
