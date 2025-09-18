@@ -1,0 +1,54 @@
+
+
+.itens{
+    background-color: cyan;
+    border: 2px solid black;
+}
+
+
+
+
+
+.item1 {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    background-color: aquamarine;
+}
+
+.item2 {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    background-color: aquamarine;
+}
+
+.item3 {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    background-color: aquamarine;
+}
+
+.item4 {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    background-color: aquamarine;
+}

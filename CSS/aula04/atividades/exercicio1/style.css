@@ -1,0 +1,12 @@
+
+
+.box{
+    background-color: rgb(51, 158, 157);
+
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}

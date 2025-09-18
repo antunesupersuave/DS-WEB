@@ -1,0 +1,35 @@
+.cartao1{
+display: inline-block;
+width: 200px;
+height: 250px;
+padding: 25px;
+margin: 30px;
+border: 1px solid black;
+text-align: center;
+align-content: center;
+background-color: rgb(63, 128, 51);
+}
+
+.cartao2{
+display: inline-block;
+width: 200px;
+height: 250px;
+padding: 20px;
+margin: 25px;
+border: 1px solid black;
+text-align: center;
+align-content: center;
+background-color: rgb(61, 160, 42);
+}
+
+.cartao3{
+display: inline-block;
+width: 200px;
+height: 250px;
+padding: 15px;
+margin: 20px;
+border: 1px solid black;
+text-align: center;
+align-content: center;
+background-color: rgb(44, 244, 5);
+}

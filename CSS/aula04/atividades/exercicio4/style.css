@@ -1,0 +1,17 @@
+
+
+.divprincipal {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(241, 60, 60);
+    padding: 70px;
+}
+
+.divmenor {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(184, 133, 133, 0.932);
+    margin: 30px;
+    text-align: center;
+    align-content: center;
+}

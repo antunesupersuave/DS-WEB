@@ -1,0 +1,214 @@
+.div1 {
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.div2 {
+    background-color: rgb(255, 255, 0);
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px dotted black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.div3 {
+    background-color: rgb(77, 255, 0);
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.div4 {
+    background-color: rgb(0, 38, 255);
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px dotted black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.div5 {
+    background-color: rgb(255, 0, 217);
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display:inline-block;
+    margin: 10px;
+
+}
+
+.div6{
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px dotted black;
+    display: inline-block;
+    margin: 10px;
+
+}
+.div7{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.div8{
+    background-color: rgb(237, 200, 20);
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px dotted black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.div9{
+    background-color: rgb(46, 148, 133);
+    text-align: center;
+    align-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.divcentral{
+    align-content: center;
+}
+
+.divizona1{
+    align-content: center;
+}
+
+.divizona2{
+    align-content: center;
+}
+
+.divizona3{
+    align-content: center;
+}
+
+.div1 {
+    color: black;        
+    background: rgb(55, 254, 0);
+  }
+  
+  .div1:hover {
+    color: rgb(0, 0, 0);        
+    background: rgb(255, 255, 255); 
+  }
+
+
+  .div2 {
+    color: black;        
+    background: rgb(255, 230, 0);
+  }
+  
+  .div2:hover {
+    color: rgb(0, 0, 0);        
+    background: rgb(255, 255, 255); 
+  }
+
+  .div3 {
+    color: black;        
+    background: rgb(207, 77, 127);
+  }
+  
+  .div3:hover {
+    color: rgb(0, 0, 0);        
+    background: rgb(255, 255, 255); 
+  }
+
+
+  .div4 {
+    color: black;        
+    background: rgb(3, 82, 16);
+  }
+  
+  .div4:hover {
+    color: rgb(0, 0, 0);        
+    background: rgb(255, 255, 255); 
+  }
+
+  .div5 {
+    color: black;        
+    background: rgb(220, 24, 237);
+  }
+  
+  .div5:hover {
+    color: rgb(0, 0, 0);        
+    background: rgb(255, 255, 255); 
+  }
+
+  .div6 {
+    color: black;        
+    background: rgb(212, 136, 22);
+  }
+  
+  .div6:hover {
+    color: rgb(205, 215, 16);        
+    background: rgb(255, 255, 255); 
+  }
+
+  .div7 {
+    color: black;        
+    background: rgb(13, 198, 211);
+  }
+  
+  .div7:hover {
+    color: rgb(16, 19, 216);        
+    background: rgb(255, 255, 255); 
+  }
+
+  .div8 {
+    color: black;        
+    background: rgb(9, 226, 20);
+  }
+  
+  .div8:hover {
+    color: rgb(33, 31, 31);        
+    background: rgb(255, 255, 255); 
+  }
+
+  .div9 {
+    color: black;        
+    background: rgb(236, 2, 2);
+  }
+  
+  .div9:hover {
+    color: rgb(237, 16, 16);        
+    background: rgb(245, 243, 243); 
+  }
