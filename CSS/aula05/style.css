@@ -1,0 +1,35 @@
+.menu{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(146, 222, 102);
+
+    position: fixed;
+    top: 0;
+}
+
+.stick{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(146, 205, 51);
+    margin: 200px 0px 0px 200pxs;
+
+    position: sticky;
+    top: 0;
+}
+
+
+.caixa {
+    position: relative;
+    height: 2000px;
+    width: 100px;
+    background-color: rgb(54, 187, 107);
+    top: 50px;
+}
+
+.absoluta {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(222, 178, 16);
+    position: absolute;
+}
+

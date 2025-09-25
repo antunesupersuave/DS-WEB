@@ -1,0 +1,14 @@
+.div1{
+    height: 60px;
+    background-color: rgb(236, 84, 2);
+    text-align: center;
+    align-content: center;
+
+    position: sticky; top: 0;
+}
+
+.div2{
+    height: 2000px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.192);
+}

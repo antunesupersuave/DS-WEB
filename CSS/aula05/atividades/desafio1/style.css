@@ -1,0 +1,40 @@
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    align-content: center;
+
+    position: fixed;
+    top: 0;
+}
+
+.menulateral{
+    height: 2000px;
+    width: 200px;
+    background-color: rgb(5, 255, 238);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: auto;
+
+    position: fixed;
+    top: 60px;
+}
+
+.corpo{
+    width: 60%;
+    height: 1100px;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+.menu2{
+   height: 200px;
+   width: 100px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    display: inline-block;
+}

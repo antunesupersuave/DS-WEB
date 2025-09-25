@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+  }
+ .p{
+    background-color: rgb(167, 212, 245);
+    margin-top: 10px;
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    align-content: center;
+ }
+
+ .e{
+    background-color: rgb(73, 157, 205);
+    margin-top: 10px;
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 50px;
+    text-align: center;
+    align-content: center;
+ }
+
+ .d{
+    background-color: rgb(44, 106, 143);
+    margin-top: 10px;
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 100px;
+    text-align: center;
+    align-content: center;
+ }
+
+ .r{
+    background-color: rgb(20, 68, 107);
+    margin-top: 10px;
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 150px;
+    text-align: center;
+    align-content: center;
+ }
+
+ .o{
+    background-color: rgb(14, 53, 103);
+    margin-top: 10px;
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    top: 0px;
+    left: 200px;
+    text-align: center;
+    align-content: center;
+ }
+
+ .partebranca{
+    height: 2000px;
+ }
+  
