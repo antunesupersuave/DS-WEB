@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de reserva</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="menufixo"> Menu fixo
+        <div class="paginainicial"><a href="paginainicial.html">Página inicial</a></div>
+
+        <div class="paginacardapio"><a href="paginadocardapio.html">Página do cardápio</a></div>
+
+       <div class="paginareserva"><a href="paginadereserv.html">Página de reserva</a></div>
+
+        <div class="paginapromo"><a href="paginadepromo.html">Página de promoções</a></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Faça sua reserva logo abaixo:</h1>
+    <br>
+    <hr>
+    <br>
+    <div class="form">
+    <form action="processa.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" maxlength="50" required placeholder=" Digite seu nome">
+        <br>
+        <hr>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Digite seu email">
+        <br>
+        <hr>
+        <label for="telefone">Telefone:</label >
+        <input type="text" id="Telefone" name="Telefone" maxlength="11" placeholder="Dgite seu telefone">
+        <br>
+        <hr>
+        <label for="Quantidade de pessoas">Quantidade de pessoas:</label>
+        <input type="number" id="Quantidade" name="Quantidade de pessoas" required placeholder="Digite a quantidade de pessoas"  min="0" max="10">
+        <br>
+        <hr>
+        <label for="opiniao">Dúvida / sugestões:</label>
+        <br>
+        <textarea id="opiniao" name="opiniao" rows="6" cols="50" max-length="300" required>
+        
+        </textarea>
+        <br>
+        <div><input class="botao" type="submit" value="Enviar reserva"></div>
+        </form>
+        </div>
+</body>
+</html>

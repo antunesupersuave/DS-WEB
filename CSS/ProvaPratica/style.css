@@ -1,0 +1,52 @@
+.menufixo{
+    height: 100px;
+    background-color: rgb(232, 204, 64);
+    text-align: center;
+    align-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    position: fixed
+}
+
+.paginainicial {
+    position: fixed;
+}
+
+.paginacardapio {
+    position: fixed;
+    left: 120px;
+}
+
+.paginareserva {
+    position: fixed;
+    left: 280px;
+}
+
+.paginapromo {
+    position: fixed;
+    left: 420px;
+}
+
+img {
+    width: 2000px;
+    height: 1000px;
+    display: block;
+}
+h1{
+    text-align: center;
+    color: rgb(168, 142, 35);
+}
+
+body{
+    background-color: rgba(232, 206, 89, 0.732);
+}
+
+.texto{
+    font-size: larger;
+}
+
+h3{
+    color: rgb(103, 77, 7);
+}

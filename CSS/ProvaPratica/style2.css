@@ -1,0 +1,113 @@
+.menufixo{
+    height: 100px;
+    background-color: rgb(232, 204, 64);
+    text-align: center;
+    align-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    position: fixed
+}
+
+.paginainicial {
+    position: fixed;
+}
+
+.paginacardapio {
+    position: fixed;
+    left: 120px;
+}
+
+.paginareserva {
+    position: fixed;
+    left: 280px;
+}
+
+.paginapromo {
+    position: fixed;
+    left: 420px;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    padding-top: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+body{
+    background-color: rgba(208, 187, 66, 0.796);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.prato {
+    display: flex;
+    align-items: flex-start;
+    background-color: #e4dfc79f;
+    border: 1px solid #000000;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.prato img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;  /* Empilha os elementos verticalmente */
+    justify-content: flex-start;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.info h2 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    color: #222;
+}
+
+.descricao {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.preco {
+    font-weight: bold;
+    color: #ed0c0c;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+}
+
+.info a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+    
+
+
+
