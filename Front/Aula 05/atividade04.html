@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Pac</title>
+
+<style>
+    body{
+        margin:0;
+        overflow:hidden;
+        background:black;
+    }
+
+    #boneco{
+        width:70px;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+
+    .ponto{
+        width:6px;
+        height:6px;
+        background:rgb(96, 129, 206);
+        border-radius:50%;
+        position:absolute;
+    }
+
+    #score{
+        position:absolute;
+        top:10px;
+        left:10px;
+        color:white;
+        font-family:Arial;
+    }
+
+    #vitoria{
+        position:fixed;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        color:yellow;
+        font-size:60px;
+        font-family:Arial;
+        display:none;
+        text-shadow:0 0 20px yellow;
+    }
+</style>
+</head>
+<body>
+
+<div id="score">Pontos: 0</div>
+<img src="bonecopacman.png" id="boneco">
+<div id="vitoria">🎉 VOCÊ GANHOU! 🎉</div>
+
+<script>
+
+let boneco = document.getElementById("boneco")
+let scoreDisplay = document.getElementById("score")
+let vitoria = document.getElementById("vitoria")
+
+let x = 0
+let y = 0
+let velocidade = 10
+let pontos = 0
+
+// criar 30 pontinhos
+for(let i = 0; i < 30; i++){
+    let ponto = document.createElement("div")
+    ponto.className = "ponto"
+    ponto.style.left = Math.random() * (window.innerWidth - 10) + "px"
+    ponto.style.top = Math.random() * (window.innerHeight - 10) + "px"
+    document.body.appendChild(ponto)
+}
+
+document.addEventListener("keydown", function(event){
+
+    if(event.key.toLowerCase() == "w") y -= velocidade
+    if(event.key.toLowerCase() == "s") y += velocidade
+    if(event.key.toLowerCase() == "a") x -= velocidade
+    if(event.key.toLowerCase() == "d") x += velocidade
+
+    if(x < 0) x = 0
+    if(y < 0) y = 0
+    if(x > window.innerWidth - 70) x = window.innerWidth - 70
+    if(y > window.innerHeight - 70) y = window.innerHeight - 70
+
+    boneco.style.left = x + "px"
+    boneco.style.top = y + "px"
+
+    verificarColisao()
+})
+
+function verificarColisao(){
+    let pontosTela = document.querySelectorAll(".ponto")
+
+    pontosTela.forEach(ponto => {
+        let r1 = boneco.getBoundingClientRect()
+        let r2 = ponto.getBoundingClientRect()
+
+        if(
+            r1.left < r2.right &&
+            r1.right > r2.left &&
+            r1.top < r2.bottom &&
+            r1.bottom > r2.top
+        ){
+            ponto.remove()
+            pontos++
+            scoreDisplay.innerText = "Pontos: " + pontos
+        }
+    })
+
+    // Se não houver mais pontos → mostrar aviso
+    if(document.querySelectorAll(".ponto").length === 0){
+        vitoria.style.display = "block"
+    }
+}
+
+</script>
+
+</body>
+</html>
